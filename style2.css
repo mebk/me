@@ -47,7 +47,7 @@ h2,h3,h4,h5,h6{font:1.2em/1.2 'IRANSans',tahoma;}
 .menu2 ul{width:80%;overflow:hidden;height:35px;}
 .menu li a{font:15px/72px IRANSans,tahoma;color:#FAFAFF;margin:0px 5px;padding:24px 5px 22px;position:relative;transition:none 0s ease 0s;}
 .menu li a:hover{background:#ccc;color:#333;}
-.menu li:before{content:"";float:right;background:url('images/sprites.png') no-repeat -53px 0px;width:19px;height:4px;margin:35px 8px 0px;}
+.menu li:before{content:"";float:right;background:url('https://cdn.rawgit.com/mebk/me/master/sprites.png') no-repeat -53px 0px;width:19px;height:4px;margin:35px 8px 0px;}
 .menu li:nth-child(2):before{background:none;}
 .menu li a:hover:after{border-bottom:71px solid #ccc;border-right:10px solid transparent;top:-1px;right:-10px;content:"";position:absolute;}
 .menu li a:hover:before{border-top:71px solid #ccc;border-left:10px solid transparent;top:0px;left:-10px;content:"";position:absolute;}
@@ -56,7 +56,7 @@ h2,h3,h4,h5,h6{font:1.2em/1.2 'IRANSans',tahoma;}
 .menu2 li a:before{background:#ccc}
 .menu2 li a:hover{background:#86aa21}
 .social,.notification{float:left;margin-top:8px;}
-.social a,.notification a{display:block;width:17px;height:20px;float:left;background:url('images/sprites.png') no-repeat;margin:0px 4px;position:relative;}
+.social a,.notification a{display:block;width:17px;height:20px;float:left;background:url('https://cdn.rawgit.com/mebk/me/master/sprites.png') no-repeat;margin:0px 4px;position:relative;}
 .social a.fb{background-position:-73px 0px;width:15px;}
 .social a.gp{background-position:-89px 0px}
 .social a.tw{background-position:-112px 0px}
