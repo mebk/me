@@ -8,10 +8,10 @@ Version: 3.13
 ********************************/
 @font-face{font-family: "IRANSans";
             font-weight: 300;
-            src: url("http://www.mihanebook.com/wp-content/themes/Eroid/inc/Fonts/IRANSans-Light-Expanded.eot?#") format("eot"),
-            url("http://www.mihanebook.com/wp-content/themes/Eroid/inc/Fonts/IRANSans-Light-Expanded.woff2") format("woff2"),
-            url('http://www.mihanebook.com/wp-content/themes/Eroid/inc/Fonts/IRANSans-web.ttf') format('truetype'),
-            url("http://www.mihanebook.com/wp-content/themes/Eroid/inc/Fonts/IRANSans-Light-Expanded.woff") format("woff");font-style:normal;font-weight:normal;}
+            src: url("https://cdn.rawgit.com/mebk/me/master/IRANSans-Light-Expanded.eot?#") format("eot"),
+            url("https://cdn.rawgit.com/mebk/me/master/IRANSans-Light-Expanded.woff2") format("woff2"),
+            url('https://cdn.rawgit.com/mebk/me/master/IRANSans-web.ttf) format('truetype'),
+            url("https://cdn.rawgit.com/mebk/me/master/IRANSans-Light-Expanded.woff") format("woff");font-style:normal;font-weight:normal;}
 /*This set of fonts are used in this project under the license: (DBDWL)*/
 *{border:0;padding:0;margin:0}
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, del, em, font, img, strong, b, i, ol, ul, li, form{padding:0;margin:0;transition:all 0.3s ease-out;}
