@@ -1,0 +1,5 @@
+!function(e,t,i){"use strict"
+var d,o,r,n,h,a=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth
+window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight
+if("object"!=typeof i)return!1
+for(d in i)i.hasOwnProperty(d)&&(r=i[d],o=/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)?1:0,(970===r.width||728===r.width||468===r.width)&&o&&468>a?(r.width=300,r.height=250):600===r.width&&300===r.height&&o&&600>a&&(r.width=300,r.height=600),r.appended||(h=void 0!==r.awota&&1==r.awota?"&ota=1":"",n=e.querySelector("#"+d),n.style.width=r.width+"px",n.style.height=r.height+"px",n.className="anetwork-b anetwork-b-"+r.width+"x"+r.height,n.insertAdjacentHTML("beforeend",'<iframe src="'+t.protocol+"//ad.anetwork.ir/showad/c.php?adwidth="+r.width+"&adheight="+r.height+"&aduser="+r.user+h+"&awrey="+~~(50*Math.random())+(r.r?"&adr="+r.r:"")+'" height="'+r.height+'" width="'+r.width+'" frameborder="0" scrolling="no" style="background: #FFF url('+t.protocol+'//static-cdn.anetwork.ir/img/loader.gif) no-repeat center;"></iframe>'),r.appended=1))}(document,location,anetworkParams)
